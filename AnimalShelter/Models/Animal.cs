@@ -13,6 +13,8 @@ namespace AnimalShelterApi.Models
     public string Species { get; set; }
     public int Age { get; set; }
     
+
+    //Shouldn't need anything below this line?????
     public static List<Animal> GetAnimals()
     {
       Task<string> apiCallTask = ApiHelper.GetAll();
