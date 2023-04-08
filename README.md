@@ -71,7 +71,7 @@ _Allows a user to view information about animals available at a hypothetical Ani
 
 >GET https://localhost:7277/v2/Animals?species={species}
 
->GET https://localhost:7277/v2/Animals?young=true
+>GET https://localhost:7277/v2/Animals?age={int}
 
 >GET https://localhost:7277/v2/Animals?species={species}&age={int}
 
